@@ -3,7 +3,7 @@ version: '3.8'
 services:
     c1:
       image: react-app:v0
-      build: ./socle-react/react-app/
+      build: ./socle-react/
       ports:
         - 4001:80
       # depends_on:
